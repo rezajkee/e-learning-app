@@ -110,6 +110,18 @@ python-versions = "*"
 Django = ">=2.2"
 
 [[package]]
+name = "django-debug-toolbar"
+version = "3.8.1"
+description = "A configurable set of panels that display various debug information about the current request/response."
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[package.dependencies]
+django = ">=3.2.4"
+sqlparse = ">=0.2"
+
+[[package]]
 name = "django-embed-video"
 version = "1.4.8"
 description = "Django app for easy embedding YouTube and Vimeo videos and music from SoundCloud."
@@ -232,6 +244,14 @@ optional = false
 python-versions = ">=3.6"
 
 [[package]]
+name = "pymemcache"
+version = "4.0.0"
+description = "A comprehensive, fast, pure Python memcached client"
+category = "main"
+optional = false
+python-versions = ">=3.7"
+
+[[package]]
 name = "python-dotenv"
 version = "0.21.0"
 description = "Read key-value pairs from a .env file and set them as environment variables"
@@ -308,7 +328,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8.1"
-content-hash = "9b1b4bded6af8a7f0b7664083741fb6135f46f13d31b70c08a7203c5b8109252"
+content-hash = "b7ae46ebfe2d50abd74c67d7c730454ea086709f42404463e81ceaa0f61c4b88"
 
 [metadata.files]
 asgiref = [
@@ -370,6 +390,10 @@ Django = [
 django-braces = [
     {file = "django-braces-1.15.0.tar.gz", hash = "sha256:f451d08ffc1078d81209a2e17f2219bce20196928853c82405451b18a46875e0"},
     {file = "django_braces-1.15.0-py2.py3-none-any.whl", hash = "sha256:28f00b0f98368c9a37f30cce6087fc57127f0a24c5b8b449f9e1245bded6405d"},
+]
+django-debug-toolbar = [
+    {file = "django_debug_toolbar-3.8.1-py3-none-any.whl", hash = "sha256:879f8a4672d41621c06a4d322dcffa630fc4df056cada6e417ed01db0e5e0478"},
+    {file = "django_debug_toolbar-3.8.1.tar.gz", hash = "sha256:24ef1a7d44d25e60d7951e378454c6509bf536dce7e7d9d36e7c387db499bc27"},
 ]
 django-embed-video = [
     {file = "django-embed-video-1.4.8.tar.gz", hash = "sha256:e30ea41a90fb7971a25408e618092dd91e7f344e513e2996c91ef7fd04e6ee89"},
@@ -477,6 +501,10 @@ pycodestyle = [
 pyflakes = [
     {file = "pyflakes-3.0.1-py2.py3-none-any.whl", hash = "sha256:ec55bf7fe21fff7f1ad2f7da62363d749e2a470500eab1b555334b67aa1ef8cf"},
     {file = "pyflakes-3.0.1.tar.gz", hash = "sha256:ec8b276a6b60bd80defed25add7e439881c19e64850afd9b346283d4165fd0fd"},
+]
+pymemcache = [
+    {file = "pymemcache-4.0.0-py2.py3-none-any.whl", hash = "sha256:f507bc20e0dc8d562f8df9d872107a278df049fa496805c1431b926f3ddd0eab"},
+    {file = "pymemcache-4.0.0.tar.gz", hash = "sha256:27bf9bd1bbc1e20f83633208620d56de50f14185055e49504f4f5e94e94aff94"},
 ]
 python-dotenv = [
     {file = "python-dotenv-0.21.0.tar.gz", hash = "sha256:b77d08274639e3d34145dfa6c7008e66df0f04b7be7a75fd0d5292c191d79045"},
