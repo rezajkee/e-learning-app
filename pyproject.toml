@@ -19,6 +19,7 @@ django-debug-toolbar = "^3.8.1"
 redis = "^4.4.0"
 django-redisboard = "^8.4.0"
 djangorestframework = "^3.14.0"
+requests = "^2.28.1"
 
 
 [tool.poetry.group.dev.dependencies]
