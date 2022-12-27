@@ -15,6 +15,7 @@ urlpatterns = [
     path("students/", include("educa.students.urls")),
     path("__debug__/", include("debug_toolbar.urls")),
     path("api/", include("educa.courses.api.urls", namespace="api")),
+    path("chat/", include("educa.chat.urls", namespace="chat")),
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

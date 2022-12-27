@@ -40,6 +40,7 @@ INSTALLED_APPS = [
     "educa",
     "educa.courses",
     "educa.students",
+    "educa.chat",
     "django.contrib.admin",
     "django.contrib.auth",
     "django.contrib.contenttypes",
