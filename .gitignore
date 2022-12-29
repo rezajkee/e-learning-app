@@ -141,3 +141,6 @@ cert.key
 
 # Media
 media
+
+# Docker data/db
+data/db
