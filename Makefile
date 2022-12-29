@@ -2,7 +2,7 @@ MANAGE := poetry run python manage.py
 
 .PHONY: runserver
 runserver:
-	@$(MANAGE) runserver
+	@$(MANAGE) runserver --settings=educa.settings.local
 
 .PHONY: plusrunserver
 plusrunserver:
