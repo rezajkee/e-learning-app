@@ -20,3 +20,9 @@ DATABASES = {
         "PORT": 5432,
     }
 }
+
+# Redis settings
+
+REDIS_URL = "redis://cache:6379"
+CACHES["default"]["LOCATION"] = REDIS_URL
+CHANNEL_LAYERS["default"]["CONFIG"]["hosts"] = [REDIS_URL]
