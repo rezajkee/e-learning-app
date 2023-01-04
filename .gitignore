@@ -143,4 +143,4 @@ cert.key
 media
 
 # Docker data/db
-data/db
+data/
