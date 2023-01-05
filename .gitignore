@@ -139,8 +139,5 @@ GitHub.sublime-settings
 cert.crt
 cert.key
 
-# Media
-media
-
 # Docker data/db
 data/
