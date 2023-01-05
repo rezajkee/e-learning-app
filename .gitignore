@@ -142,3 +142,6 @@ ssl/
 
 # Docker data/db
 data/
+
+# Unix sock
+*.lock
