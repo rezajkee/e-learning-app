@@ -135,9 +135,10 @@ GitHub.sublime-settings
 !.vscode/extensions.json 
 .history
 
-# Cert
+# Security
 cert.crt
 cert.key
+ssl/
 
 # Docker data/db
 data/
